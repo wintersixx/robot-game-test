@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'GT-Ultra';
+    src: url('/fonts/GT-Ultra-Standard-Light.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'GT-Ultra', serif;
+}
+
+.header {
+    margin: 20px 0px 0px 0px;
+    padding: 10px 50px;
+    background-color: #555f53;
+}
+
+h1 {
+    color: white;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 60px);
+    gap: 2px;
+    margin: 20px;
+    border: 2px solid #000;
+    padding: 10px;
+    background-color: #f5f5f5;
+}
+
+.cell {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.robot {
+    font-size: 24px;
+    transform-origin: center;
+    transition: transform 0.3s;
+}
+
+.controls {
+    margin: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+button {
+    padding: 12px 24px;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s;
+    font-family: 'GT-Ultra', serif;
+}
+
+button:hover {
+    background-color: #000;
+}
