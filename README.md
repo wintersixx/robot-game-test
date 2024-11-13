@@ -1,2 +1,2 @@
-# bellroy-robot
-Code test for the Front End Dev position at Bellroy
+# robot-game-test
+Code test that required me to create a simple robot game.
